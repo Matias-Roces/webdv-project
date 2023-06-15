@@ -165,9 +165,21 @@ h2 {
     margin: 10px;
     padding: 10px;
 }
-
-/* .prueba1{
+@media (max-width: 991px) {
+    .button-fixed{
+        padding-right: 60px;
+        position: fixed;
+    }
+    .bg-menu{
+        margin-top: 20px;
+        padding: 10px;
+        background: #35ac86;
+    }
+}
+/* .mi-nav{
+    bs-navbar-color:rgb(0, 0, 0)
+}
+.prueba1{
     display:flex;
     justify-content: space-evenly;
-
-} */
+} */ 
