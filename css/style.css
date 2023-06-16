@@ -167,19 +167,26 @@ h2 {
 }
 @media (max-width: 991px) {
     .button-fixed{
-        padding-right: 60px;
+        /* padding-right: 60px; */
         position: fixed;
     }
     .bg-menu{
-        margin-top: 20px;
-        padding: 10px;
+        margin-top: 30px;
+        /* margin-right: 200px; */
+        padding: 0px 20px;
+        /*padding: 10px;*/
         background: #35ac86;
     }
 }
-/* .mi-nav{
-    bs-navbar-color:rgb(0, 0, 0)
+.mi-nav{
+    margin-right: 80px;
+
 }
+/*
 .prueba1{
     display:flex;
     justify-content: space-evenly;
 } */ 
+.mi-itemlist {
+    
+}
