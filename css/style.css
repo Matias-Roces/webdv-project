@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(../images/bg-anana.jpg);
+    background-image: url(../images/bg-anana-tile1.jpg);
     
 }
 header{
@@ -196,12 +196,12 @@ h5
     padding: 10px;
 }
 @media (max-width: 767px) {
-    h1{
+    /* h1{
         font-size: 2rem;
     }
     h2{
         font-size: x-large;
-    }
+    } */
     .button-fixed{        
         position:absolute;
     }
