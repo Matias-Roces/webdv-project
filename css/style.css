@@ -58,8 +58,18 @@ nav ul li a {
 p {
     font-family: 'Poppins', sans-serif;
     font-size: medium;
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1%;     
+}
+.parrafo {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1%;    
+    background-color: #f3b552;
+    background-color: rgba(223, 167, 46, 0.3);
 }
 footer {
     font-family: 'Poppins', sans-serif;
