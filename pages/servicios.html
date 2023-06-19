@@ -1,79 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">    
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/style.css">
-        <title>Anana - Contenido Digital</title>
-        <!-- fuentes de Google -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <!--<img src="./images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo">-->
-            <a href="../index.html" class="logo-encore"><img src="../images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo"></a>
-            <!-- <nav>
-                <ul class="header">
-                    <li><a href="./pages/conocenos.html">CONOCENOS</a></li>
-                    <li><a href="./pages/servicios.html">SERVICIOS</a></li>
-                    <li><a href="./pages/portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="./pages/contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav> -->       
-            <div>
-                <nav class="navbar navbar-expand-md bg-none">
-                    <div class="container-fluid mi-nav mi-navq ">                
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse " id="navbarNav">
-                            <ul class="navbar-nav ml-auto bg-menu button-fixed">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="../pages/conocenos.html">CONOCENOS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">SERVICIOS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/portfolio.html">PORTFOLIO</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>          
-        </header>
-        <main>
-            <br id="ancla-inicio"><br><br><br> <!-- estos br no los voy a usar, solo estan a modo de solucion temporal, la idea es poder administrar mejor las herramientas de display flex y flexbox-->
-            <h2>SERVICIOS QUE OFRECEMOS</h2>
-            <h1>FACEBOOK E INSTAGRAM</h1>
-            <p>Aqui va, o una tabla, o una imagen con una tabla con los presupuestos segun el plan que el cliente desee solicitar. Incluso la idea es facilitar un boton segun el plan requerido para que lo redirija al formulario de contacto con el texto pre armado solicitando tal plan.</p>
-            <img id="tabla-servicios" src="http://placekitten.com/1800/600" alt="Tabla de planes mensuales acerca de los presupuestos disponibles con los que contamos.">
-        </main>
-        <section>
-            <h2>Servicios adicionales</h2>
-            <p>Aunque aun no este definido, aqui pueden ir servicios extra tales como el seteo de las redes, whatsapp business e ideas varias</p>
-            <p>Posible tabla tambien, o varios section con cada uno de los extras que se deseen contratar. llenamos con un Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur quo laudantium ab minima adipisci, saepe explicabo. Animi dicta quos magnam vero vel eligendi non, autem laborum magni. Doloremque minus qui consectetur architecto ratione. Quae, repellat. Facilis alias distinctio, asperiores rerum assumenda aliquam tempora dolorum, maiores amet dolore natus ea mollitia veritatis accusamus cupiditate minus recusandae expedita aperiam officiis voluptatum facere nam modi explicabo cumque? Dignissimos magnam iure odit a eligendi! Commodi, sequi? Omnis numquam autem sint nisi tempore dolore.</p>
-        </section>
+<head>
+    <meta charset="UTF-8">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LLAMADO AL CSS DE BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- LLAMADO A MI PROPIO CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Anana - Contenido Digital</title>
+    <!-- fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Logo Anana con link al index -->
+        <a href="../index.html" class="logo-encore"><img src="../images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo"></a>
+        <!-- Barra de navegacion responsiva, con menu hamburguesa -->
+        <div>
+        <nav class="navbar navbar-expand-md bg-none">
+            <div class="container-fluid mi-nav mi-navq ">
+                <!-- boton hamburguesa-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <!-- LISTA DEL MENU -->
+                    <ul class="navbar-nav ml-auto bg-menu button-fixed">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/conocenos.html">CONOCENOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/portfolio.html">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>          
+    </header>
+    <section>
+        <br id="ancla-inicio"><br><br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="col-md-10 mx-auto">SERVICIOS QUE OFRECEMOS</h2>
+                <p class="col-md-10 mx-auto">
+                    Contamos con los servicios basicos de manejo de redes sociales, clasificados segun la cantidad de contenido semanal que quieras solicitar, y ademas con servicios complementarios para asegurar que las estrategias que utilicemos tengan mayor eficacia, tales como la creacion de la identidad de tu marca (Branding), servicios de creacion de contenido visual y copys, y creacion de un sitio web funcional para complementar con tus redes sociales. 
+                </p>
+            </div>
+        </div>        
+    </section>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="col-md-10 mx-auto">FACEBOOK E INSTAGRAM</h1>
+                <p class="col-md-10 mx-auto">Aqui va, o una tabla, o una imagen con una tabla con los presupuestos segun el plan que el cliente desee solicitar. Incluso la idea es facilitar un boton segun el plan requerido para que lo redirija al formulario de contacto con el texto pre armado solicitando tal plan.</p>
+                <img class="col-md-10 mx-auto marginbottomS" id="tabla-servicios" src="http://placekitten.com/1800/600" alt="Tabla de planes mensuales acerca de los presupuestos disponibles con los que contamos.">
+            </div>
+        </div> 
+        
+        
+    </main>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="col-md-10 mx-auto">Servicios adicionales</h2>
+                <p class="col-md-10 mx-auto">Aunque aun no este definido, aqui pueden ir servicios extra tales como el seteo de las redes, whatsapp business e ideas varias</p>
+                <p class="col-md-10 mx-auto">Posible tabla tambien, o varios section con cada uno de los extras que se deseen contratar. llenamos con un Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur quo laudantium ab minima adipisci, saepe explicabo. Animi dicta quos magnam vero vel eligendi non, autem laborum magni. Doloremque minus qui consectetur architecto ratione. Quae, repellat. Facilis alias distinctio, asperiores rerum assumenda aliquam tempora dolorum, maiores amet dolore natus ea mollitia veritatis accusamus cupiditate minus recusandae expedita aperiam officiis voluptatum facere nam modi explicabo cumque? Dignissimos magnam iure odit a eligendi! Commodi, sequi? Omnis numquam autem sint nisi tempore dolore.</p>
+            </div>
+        </div>
+        
+    </section>
 
-        <footer>
-            <div class="footer-links">
-                <a href="#ancla-inicio">Inicio</a>
-            </div>
-            <div class="social-icons">
-                <a target="_blank" href="https://www.instagram.com/"><img src="../images/instagram.png" alt="Instagram"></a>
-                <a target="_blank" href="https://www.facebook.com/"><img src="../images/facebook.png" alt="Facebook"></a>
-                <a target="_blank" href="https://www.pinterest.com/"><img src="../images/pinterest.png" alt="Pinterest"></a>
-            </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    </body>
+    <footer>
+        <div class="footer-links">
+            <a href="#ancla-inicio">Inicio</a>
+        </div>
+        <div class="social-icons">
+            <a target="_blank" href="https://www.instagram.com/"><img src="../images/instagram.png" alt="Instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/"><img src="../images/facebook.png" alt="Facebook"></a>
+            <a target="_blank" href="https://www.pinterest.com/"><img src="../images/pinterest.png" alt="Pinterest"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
 </html>
