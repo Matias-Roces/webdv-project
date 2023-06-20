@@ -12,8 +12,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(../images/bg-anana-tile1.jpg);
-    
+    background-image: url(../images/bg-anana-tile1.jpg);   
 }
 header{
     font-family: 'Poppins', sans-serif;
@@ -128,6 +127,12 @@ h2 {
     margin-bottom: 10px;
     background-color: #f5d84f;
 }
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: .5%;
+}
 h5
 {
     font-family: 'Poppins', sans-serif;
@@ -235,43 +240,45 @@ h5
 }
 /*footer*/
 footer {
-background-color: #f3b552;
-color: #000000;
-padding: 20px;
-bottom: 0;
-width: 100%;
-padding: 40px;
+    background-color: #f3b552;
+    color: #000000;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    padding: 40px;
 }
 .footer-links {
-float: left;
-max-width: 40%;
+    float: left;
+    max-width: 40%;
 }
 .footer-links a {
-color: #000000;
-margin-right: 10px;
-text-decoration: none; 
+    color: #000000;
+    margin-right: 10px;
+    text-decoration: none; 
 }
 .social-icons {
-max-width: 60%;
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
+    max-width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 .social-icons a {
-height: 36px;
-margin-right: 60px;
+    height: 36px;
+    margin-right: 60px;
 }
 .social-icons img {
-max-height: 100%;
-max-width: 100%;
-margin: 0.2rem;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0.2rem;
 }
 /* CARDS DE "CONOCENOS" */
 .mi-card{
     background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
     
 }
-
+.marginsides {
+    margin: 0 0.5%;
+}
 .marginbottom{
     margin-bottom: 10%;
 }
@@ -284,6 +291,13 @@ margin: 0.2rem;
     justify-content: center;
     align-items: center;
 }
+.mi-flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .table-text{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;    
@@ -293,7 +307,7 @@ margin: 0.2rem;
 .table-text2{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;    
-    font-size:  small;
+    font-size: small;
     text-align: start;
 }
 .mi-tabla{
@@ -304,4 +318,21 @@ margin: 0.2rem;
 }
 .enfasis{
     font-weight: bolder;    
+}
+.mi-card-body{
+    height: 410px;
+}
+.mi-card-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;    
+    font-size: small;
+    text-align: start;
+    color:#e0b62a;
+}
+.mi-card-text2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;    
+    font-size: small;
+    text-align: start;
+    color:#000000;
 }
