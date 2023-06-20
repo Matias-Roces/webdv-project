@@ -287,6 +287,14 @@ margin: 0.2rem;
 .table-text{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;    
-    font-size:  small;
-    text-align: center;
+    font-size:  small;    
+}
+.mi-tabla{
+    max-width: 100%;    
+}
+.ul-tabla{
+    list-style: none;    
+}
+.enfasis{
+    font-weight: bolder;
 }
