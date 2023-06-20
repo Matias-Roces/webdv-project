@@ -278,3 +278,15 @@ margin: 0.2rem;
 .marginbottomS{
     margin-bottom: 5%;
 }
+.miflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;    
+    font-size:  small;
+    text-align: center;
+}
