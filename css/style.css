@@ -286,8 +286,15 @@ margin: 0.2rem;
 }
 .table-text{
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;    
-    font-size:  small;    
+    font-weight: 500;    
+    font-size:  small;
+    text-align: center;    
+}
+.table-text2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;    
+    font-size:  small;
+    text-align: start;
 }
 .mi-tabla{
     max-width: 100%;    
@@ -296,5 +303,5 @@ margin: 0.2rem;
     list-style: none;    
 }
 .enfasis{
-    font-weight: bolder;
+    font-weight: bolder;    
 }
