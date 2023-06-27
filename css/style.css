@@ -47,10 +47,18 @@ nav ul li a {
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 0;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 .logo-encore {
     height: 70px; 
+}
+.logo2 {
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
+    /* background-color: #ffffff; */
 }
 .top{
     padding-top: 70px;
@@ -136,6 +144,7 @@ h3{
 h5
 {
     font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
     font-size: larger;
     text-align: start;
     padding: .5%;
@@ -201,12 +210,12 @@ h5
     padding: 10px;
 }
 @media (max-width: 767px) {
-    /* h1{
+    h1{
         font-size: 2rem;
     }
     h2{
         font-size: x-large;
-    } */
+    }
     .button-fixed{        
         position:absolute;
     }
@@ -335,4 +344,17 @@ footer {
     font-size: small;
     text-align: start;
     color:#000000;
+}
+/* .encore-style {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    color: #e0b62a;
+} */
+.mi-boton-dark {
+    color: #e0b62a;
+    font-weight: bold;
+    font-size: small;
+    border-color: #e0b62a;
 }
