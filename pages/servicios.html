@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- LLAMADO A MI PROPIO CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- animaciones AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     <title>Ananá - Contenido Digital</title>
@@ -50,17 +52,20 @@
         </div>          
     </header>
     <section>
-        <br id="ancla-inicio"><br><br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <section class="col-md-6 mx-auto top-margin">                
+                    <!-- SECTION PARA DARLE VIGOR AL LOGO DE LA MARCA -->
+                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img id="ancla-inicio" src="../images/anana-logo-completo.png" alt="Logo de Ananá - Contenido Digital" class="logo2">
+                    </div>
+                </section>
+            </div>
+        </div>
         
         <!-- BREVE INTRODUCCION A LOS SERVICIOS OFRECIDOS -->
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-10 mx-auto">                
-                    <!-- SECTION PARA DARLE VIGOR AL LOGO DE LA MARCA -->
-                    <div>
-                        <img src="../images/anana-logo-completo.png" alt="Logo de Ananá - Contenido Digital" class="logo2">
-                    </div>
-                </div>
+            <div class="row">                
                 <div class="col-md-10 mx-auto">
                     <h2 >SERVICIOS QUE OFRECEMOS</h2>
                     <p>
@@ -83,8 +88,8 @@
                             <tr class="enfasis">
                                 <th scope="col">SERVICIOS</th>
                                 <th scope="col">PACK STANDARD</th>
-                                <th scope="col">PACK PRO</th>
-                                <th scope="col">PACK VIP</th>
+                                <th scope="col">PACK <span class="pro">PRO</span></th>
+                                <th scope="col">PACK <span class="vip">VIP</span></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -145,10 +150,34 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th><div class="enfasis">PRECIO</div></th>
-                                <td class="enfasis">$ 20.000 MENSUAL</td>
-                                <td class="enfasis">$ 25.000 MENSUAL</td>
-                                <td class="enfasis">$ 30.000 MENSUAL</td>
+                                <th><div class="enfasis"></div></th>
+                                <td class="enfasis">
+                                    <span>
+                                        <a class="encore-style" href="../pages/contacto.html">
+                                            <button type="button" class="btn btn-dark mi-boton-dark">
+                                            SOLICITAR PRECIO
+                                            </button>
+                                        </a>
+                                    </span>
+                                </td>
+                                <td class="enfasis">
+                                    <span>
+                                        <a class="encore-style" href="../pages/contacto.html">
+                                            <button type="button" class="btn btn-dark mi-boton-dark">
+                                            SOLICITAR PRECIO
+                                            </button>
+                                        </a>
+                                    </span>
+                                </td>
+                                <td class="enfasis">
+                                    <span>
+                                        <a class="encore-style" href="../pages/contacto.html">
+                                            <button type="button" class="btn btn-dark mi-boton-dark">
+                                            SOLICITAR PRECIO
+                                            </button>
+                                        </a>
+                                    </span>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -167,8 +196,7 @@
                             <div class="card-header bg-dark mi-card-text">FOTOGRAFIA</div>
                             <div class="card-body mi-card-body mi-card-text2">
                                 <h3 class="card-title">FOTOGRAFIA PROFESIONAL</h3>
-                                <p class="card-text">El servicio mensual incluye:
-                                    La visita una vez al mes de la fotógrafa de ANANA CONTENIDO DIGITAL a coordinar para la creación de contenido del mes y la creación de contenido visual de posteos e historias para tu cuenta.
+                                <p class="card-text">El servicio mensual consta de una visita (a coordinar) con la fotógrafa, para la creación del contenido audiovisual de un mes de la cuenta.
                                 </p>
                             </div>
                             <div class="card-footer bg-dark mi-card-text miflex">
@@ -198,7 +226,7 @@
                             <div class="card-header bg-dark mi-card-text">BRANDING</div>
                             <div class="card-body mi-card-body mi-card-text2">
                                 <h3 class="card-title">BRANDING Y RECONOCIMIENTO DE MARCA</h3>
-                                <p class="card-text">Servicio por unica vez, que incluye el branding de marca desde cero, o el analisis de tus identificadores y recursos de marca por nuestra ilustradora. El 1° precio corresponde al branding desde cero, el 2° al analisis y modificaciones.
+                                <p class="card-text">El servicio de branding se realiza por única vez, incluye el análisis de tu marca, la construcción de su identidad, mediante varios aspectos a cargo de nuestra Diseñadora, para lograr así que tu marca tenga una esencia visual que se distinga fácilmente.
                                 </p>
                             </div>
                             <div class="card-footer bg-dark mi-card-text miflex">
@@ -209,21 +237,33 @@
                                         </button>
                                     </a>
                                 </span>
-                            </div>
+                            </div>                          
                         </div>
-                    </div>
-                    
-                    
-                </div>
-                
+                        <div class="card mb-3 marginsides" style="max-width: 18rem;">
+                            <div class="card-header bg-dark mi-card-text">GESTION DE ANUNCIOS</div>
+                            <div class="card-body mi-card-body mi-card-text2">
+                                <h3 class="card-title">ANUNCIOS EN RRSS Y GOOGLE</h3>
+                                <p class="card-text">Estrategia y desarrollo de campañas publicitarias para redes sociales y Google ADS segun la necesidad actual de tu marca. Precio a convenir.
+                                </p>
+                            </div>
+                            <div class="card-footer bg-dark mi-card-text miflex">
+                                <span>
+                                    <a class="encore-style" href="../pages/contacto.html">
+                                        <button type="button" class="btn btn-dark mi-boton-dark">
+                                            CONSULTANOS
+                                        </button>
+                                    </a>
+                                </span>
+                            </div>                          
+                        </div>                        
+                    </div>                    
+                </div>               
             </div>
-        </div>
-        
+        </div>        
     </section>
-
     <footer>
         <div class="footer-links">
-            <a href="#ancla-inicio">INICIO</a>
+            <a href="#ancla-inicio" class="logo-encore"><img src="../images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo"></a>
         </div>
         <div class="social-icons">
             <a target="_blank" href="https://www.instagram.com/"><img src="../images/instagram.png" alt="Instagram"></a>
@@ -231,7 +271,16 @@
             <a target="_blank" href="https://www.pinterest.com/"><img src="../images/pinterest.png" alt="Pinterest"></a>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <!-- SCRIPTS PARA TRAER BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">            
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">            
+    </script>
+    <!-- SCRIPTS PARA TRAER ANIMACIONES -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">            
+    </script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

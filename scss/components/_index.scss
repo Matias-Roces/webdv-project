@@ -1,0 +1,22 @@
+.text-carrusel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 50px !important;
+    
+    p{
+        font-size: 1.5vw;
+        text-align: start;
+        line-height: 150%;
+        padding: 5%;
+    }
+    h5 {
+        font-size: 1.5vw;
+        font-weight: bolder;
+        text-align: center;
+    }
+}
+.img-carrusel {
+    position: relative !important;
+}
