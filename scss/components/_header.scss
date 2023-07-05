@@ -2,14 +2,12 @@ header{
     font-family: 'Poppins', sans-serif;
     font-size:large;
     font-weight: 500;
-    /* background-color: #35ac86; */
     background: linear-gradient(to right bottom, map-get($map: $palette, $key: verde-c), map-get($map: $palette, $key: verde-o));
     height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*padding: 0 20px;*/
     position: fixed;
     z-index: 50;
     nav ul {
@@ -27,8 +25,7 @@ header{
     height: 70px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-left: 0;
-    /* background-color: #ffffff; */
+    margin-left: 0;    
 }
 .logo-encore {
     height: 70px; 

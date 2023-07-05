@@ -9,7 +9,7 @@
         align-self:flex-end;
         margin-top: 0.9rem;
         padding: 0.5rem;                
-        background: #35ac86;
+        background: map-get($map: $palette, $key: verde-o);
     }
     .mi-navq{
         width: 130px !important;
