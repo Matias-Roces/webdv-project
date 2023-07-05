@@ -118,6 +118,18 @@ h5 {
   margin: 0px 10%;
 }
 
+.marginsides {
+  margin: 0 0.5%;
+}
+
+.marginbottom {
+  margin-bottom: 10%;
+}
+
+.marginbottomS {
+  margin-bottom: 5%;
+}
+
 body {
   background-image: url(../images/bg-anana-tile1.jpg);
 }
@@ -164,7 +176,7 @@ footer {
   font-family: "Poppins", sans-serif;
   font-size: large;
   /* background-color: #f3b552; */
-  background: linear-gradient(to right bottom, #f98437, #f3b552);
+  background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
   padding: 20px;
   /*width: 100%;*/
   height: 50px;
@@ -256,18 +268,6 @@ footer {
   background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
 }
 
-.marginsides {
-  margin: 0 0.5%;
-}
-
-.marginbottom {
-  margin-bottom: 10%;
-}
-
-.marginbottomS {
-  margin-bottom: 5%;
-}
-
 .table-text {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -323,6 +323,13 @@ footer {
 
 .vip {
   color: #e0b62a;
+}
+
+.big-card h3, .big-card p {
+  font-size: 1.5vw;
+}
+.big-card h3 {
+  font-weight: bolder;
 }
 
 .text-carrusel {
@@ -398,6 +405,10 @@ footer {
     font-size: 2.1vw;
     font-weight: bolder;
     text-align: center;
+  }
+  .big-card h3, .big-card p {
+    font-size: 2vw !important;
+    background-color: rgba(0, 0, 0, 0.322);
   }
 }
 

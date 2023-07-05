@@ -50,4 +50,10 @@
             text-align: center;
         }
     }
+    .big-card {
+        h3, p {
+            font-size: 2vw !important;
+            background-color: rgba(0, 0, 0, 0.322);
+        }        
+    }
 }
