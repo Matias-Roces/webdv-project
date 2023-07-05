@@ -324,6 +324,7 @@ footer {
 
 .big-card p {
   font-size: 1.5vw;
+  text-transform: none !important;
 }
 .big-card a {
   text-decoration: none;
