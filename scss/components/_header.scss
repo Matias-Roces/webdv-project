@@ -3,7 +3,7 @@ header{
     font-size:large;
     font-weight: 500;
     /* background-color: #35ac86; */
-    background: linear-gradient(to right bottom, #91bd68, #35ac86);
+    background: linear-gradient(to right bottom, map-get($map: $palette, $key: verde-c), map-get($map: $palette, $key: verde-o));
     height: 70px;
     width: 100%;
     display: flex;

@@ -5,7 +5,7 @@
     }
     a {        
         text-decoration: none;
-        color: #f5d84f;
+        color: map-get($map: $palette, $key: amarillo-c);
         padding: 10px;        
         h3{
             font-weight: bolder;

@@ -4,47 +4,53 @@
         <meta charset="UTF-8">    
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Ananá Contenido Digital es una agencia de Community Management que destaca por saber escuchar al cliente, por su dedicación, responsabilidad y por proveer un servicio integral que permite desarrollar las estrategias que se requieran para lograr tu objetivo, ya sea obtener visibilización de tu marca, ventas, promociones y más.">
+        <meta name="keywords" content="contacto, contactanos, community manager, community management, emprendimiento, engagement, instagram, facebook, ananá, contenido digital, redes sociales, diseño web">
+        <!-- LLAMADO A CSS BOOTSTRAP -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <!-- LLAMADO A MI CSS -->
         <link rel="stylesheet" href="../css/style.css">
-        <!-- animaciones AOS -->
+        <!-- ANIMACIONES AOS -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <!-- Favicon -->
+        <!-- FAVICON -->
         <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
         <title>Anana - Contenido Digital</title>
-        <!-- fuentes de Google -->
+        <!-- FUENTES DE GOOGLE APIS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>           
-            <a href="../index.html" class="logo-encore">
-                <img src="../images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo">
-            </a>            
+        <header>
+            <!-- LOGO DE ANANA CON LINK AL INDEX -->
+            <a href="../index.html" class="logo-encore"><img src="../images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo"></a>
+            <!-- BARRA DE NAVEGACION RESPONSIVA, CON MENU HAMBURGUESA -->
             <div>
-                <nav class="navbar navbar-expand-md bg-none">
-                    <div class="container-fluid mi-nav mi-navq ">                
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse " id="navbarNav">
-                            <ul class="navbar-nav ml-auto bg-menu button-fixed">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="../pages/conocenos.html">CONOCENOS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/portfolio.html">PORTFOLIO</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">CONTACTO</a>
-                                </li>
-                            </ul>
-                        </div>
+            <nav class="navbar navbar-expand-md bg-none">
+                <div class="container-fluid mi-nav mi-navq ">
+                    <!-- BOTON HAMBURGUESA -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <!-- LISTA DEL MENU -->
+                        <ul class="navbar-nav ml-auto bg-menu button-fixed">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../pages/conocenos.html">CONOCENOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">SERVICIOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/portfolio.html">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
+                </div>
+            </nav>
             </div>          
         </header>
         <div class="container-fluid">
@@ -60,6 +66,7 @@
         <section>
             <div class="container-fluid">
                 <div class="row">
+                    <!-- INTRODUCCIÓN AL FORMULARIO DE CONTACTO -->
                     <p class="parrafo col-md-10 mx-auto" class="col-md-8 mx-auto" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1300" data-aos-easing="ease-in-sine">¿Tenés dudas sobre lo que hacemos? ¿Te interesa pero no estas seguro/a? Contactanos sin compromiso, que nosotros con gusto te despejamos todas las dudas. Creemos que la confianza es fundamental para desarrollar una dinamica que te favorezca y nos de las herramientas para ayudarte.</p>
                 </div>
             </div>
@@ -71,6 +78,7 @@
                     <h1 class="col-md-10 mx-auto">CONTACTANOS</h1>
                     <div class="container-fluid">
                         <div class="row">
+                            <!-- FORMULARIO DE CONTACTO -->
                             <div class="col-md-8 mx-auto">
                                 <label for="exampleFormControlInput1" class="form-label etiqueta">APELLIDO Y NOMBRE</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Juan Perez">
@@ -83,6 +91,7 @@
                                 <label for="exampleFormControlTextarea1" class="form-label etiqueta">Contanos por qué querés contactarnos:</label>
                                 <textarea class="form-control marginbottomS" id="exampleFormControlTextarea1" rows="10"></textarea>
                             </div>
+                            <!-- BOTON DE CONTACTO -->
                             <div class="col-md-8 mx-auto miflex marginbottomS" >
                                 <span>
                                     <button type="button" class="btn btn-light">

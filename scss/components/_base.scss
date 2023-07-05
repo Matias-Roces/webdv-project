@@ -31,8 +31,7 @@ h1, h2{
     font-size:xx-large;
     text-align: center;
     /* background-color: #f5d84f; */
-    background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
-    
+    background: linear-gradient(to right bottom, map-get($map: $palette, $key: amarillo-c), map-get($map: $palette, $key: amarillo-o));
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
