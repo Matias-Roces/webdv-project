@@ -51,9 +51,19 @@
         }
     }
     .big-card {
-        h3, p {
-            font-size: 2vw !important;
-            background-color: rgba(0, 0, 0, 0.322);
+        background-color: rgba(0, 0, 0, 0.349);
+        p {
+            font-size: 1.7vw; 
+            line-height: 3vh;           
+        }
+        a {        
+            text-decoration: none;
+            color: #f5d84f;
+            padding: 0 !important;        
+            h3{
+                font-weight: bolder;
+                font-size: 1.7vw;
+            }
         }        
     }
 }

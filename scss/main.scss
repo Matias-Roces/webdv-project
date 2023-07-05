@@ -1,13 +1,11 @@
+//abstracts
 @import"./abstract/variable";
 @import"./abstract/maps";
 @import"./abstract/extends";
 @import"./abstract/mixin";
-
+//base
 @import"./components/base";
-
-
-@import"./components/header";
-@import"./components/footer";
+//partials
 @import"./components/conocenos";
 @import"./components/servicios";
 @import"./components/contacto";
@@ -15,4 +13,6 @@
 @import"./components/index";
 @import"./components/body";
 @import"./components/responsive";
+@import"./components/header";
+@import"./components/footer";
 
