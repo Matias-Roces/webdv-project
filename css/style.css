@@ -130,10 +130,6 @@ h5 {
   margin-bottom: 5%;
 }
 
-body {
-  background-image: url(../images/bg-anana-tile1.jpg);
-}
-
 header {
   font-family: "Poppins", sans-serif;
   font-size: large;
@@ -359,6 +355,10 @@ footer {
 
 .img-carrusel {
   position: relative !important;
+}
+
+body {
+  background-image: url(../images/bg-anana-tile1.jpg);
 }
 
 @media (max-width: 767px) {
