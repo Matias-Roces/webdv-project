@@ -325,11 +325,17 @@ footer {
   color: #e0b62a;
 }
 
-.big-card h3, .big-card p {
+.big-card p {
   font-size: 1.5vw;
 }
-.big-card h3 {
+.big-card a {
+  text-decoration: none;
+  color: #f5d84f;
+  padding: 10px;
+}
+.big-card a h3 {
   font-weight: bolder;
+  font-size: 1.5vw;
 }
 
 .text-carrusel {
