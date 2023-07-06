@@ -54,7 +54,7 @@
         p {            
             font-size: 1.5vw; 
             line-height: 2.5vh;
-            background: linear-gradient(to bottom, map-get($map: $palette, $negro-35), map-get($map: $palette, $negro-65));           
+            background: linear-gradient(to right bottom, map-get($map: $palette, $key: negro-35), map-get($map: $palette, $key: negro-65));           
         }
         a {        
             text-decoration: none;
@@ -63,7 +63,7 @@
             h3{
                 font-weight: bolder;
                 font-size: 1.5vw;
-                background: linear-gradient(to bottom, map-get($map: $palette, $negro-35), map-get($map: $palette, $negro-65));
+                background: linear-gradient(to bottom, map-get($map: $palette, $key: negro-35), map-get($map: $palette, $key: negro-65));
             }
         }        
     }
