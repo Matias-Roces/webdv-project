@@ -302,6 +302,9 @@ body {
   .mi-card {
     height: auto;
   }
+  /*.tabla2 {
+      display: none;
+  }*/
 }
 @media (max-width: 1360px) {
   .mi-card {
