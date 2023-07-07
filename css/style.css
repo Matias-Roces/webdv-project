@@ -1,3 +1,8 @@
+.displayflex-justifycontentcenter, .mi-flexRow, .miflex, .portfolio-main-div, .conocenos-main-div {
+  display: flex;
+  justify-content: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -32,10 +37,9 @@ p {
 h1, h2 {
   font-family: "Noticia Text", serif;
   font-weight: bolder;
-  /* font-size: xx-large; */
   font-size: xx-large;
   text-align: center;
-  /* background-color: #f5d84f; */
+  color: #000000;
   background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -45,8 +49,10 @@ h1, h2 {
 
 h3 {
   font-family: "Poppins", sans-serif;
+  font-weight: normal;
   font-size: large;
   text-align: center;
+  color: #000000;
   padding: 0.5%;
 }
 
@@ -55,6 +61,7 @@ h5 {
   font-weight: bolder;
   font-size: larger;
   text-align: start;
+  color: #000000;
   padding: 0.5%;
 }
 
@@ -65,8 +72,6 @@ h5 {
 }
 
 .conocenos-main-div {
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 .conocenos-main-div p {
@@ -75,14 +80,12 @@ h5 {
   padding: 10px;
 }
 
-#tabla-servicios {
+.tabla-servicios {
   margin-left: 40px;
 }
 
 .portfolio-main-div {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
 }
 .portfolio-main-div p {
@@ -92,16 +95,12 @@ h5 {
 }
 
 .miflex {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .mi-flexRow {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -161,11 +160,11 @@ h5 {
   height: 410px;
 }
 
-.mi-card-text {
+.mi-card-text1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: small;
-  text-align: center;
+  text-align: start;
   color: #e0b62a;
 }
 
@@ -194,6 +193,7 @@ h5 {
 
 .big-card p {
   font-size: 1.3vw;
+  line-height: 4vh;
   text-transform: none !important;
 }
 .big-card a {
@@ -285,8 +285,8 @@ body {
     text-align: center;
   }
   .big-card p {
-    font-size: 1.5vw;
-    line-height: 2.5vh;
+    font-size: 2vw;
+    line-height: 2.2vh;
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65));
   }
   .big-card a {
@@ -296,7 +296,7 @@ body {
   }
   .big-card a h3 {
     font-weight: bolder;
-    font-size: 1.5vw;
+    font-size: 2.3vw;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65));
   }
   .mi-card {
