@@ -1,14 +1,9 @@
 .table-text{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;    
-    font-size:  small;
-    text-align: center;    
+    @include mi-text ('Poppins', sans-serif, 500, small, center, map-get($map: $palette, $key: negro-basico));        
 }
 .table-text2{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;    
-    font-size: small;
-    text-align: start;
+    @include mi-text ('Poppins', sans-serif, 200, small, start, map-get($map: $palette, $key: negro-basico));
+    
 }
 .mi-tabla{
     max-width: 100%;    
