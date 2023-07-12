@@ -1,4 +1,4 @@
-.displayflex-justifycontentcenter, .mi-flexRow, .miflex, .portfolio-main-div, .conocenos-main-div {
+.displayflex-justifycontentcenter, .conocenos-main-div, .mi-flexRow, .miflex {
   display: flex;
   justify-content: center;
 }
@@ -71,29 +71,6 @@ h5 {
   text-transform: uppercase;
 }
 
-.conocenos-main-div {
-  align-items: center;
-}
-.conocenos-main-div p {
-  width: 45%;
-  margin: 10px;
-  padding: 10px;
-}
-
-.tabla-servicios {
-  margin-left: 40px;
-}
-
-.portfolio-main-div {
-  flex-direction: row;
-  align-items: center;
-}
-.portfolio-main-div p {
-  width: 45%;
-  margin: 10px;
-  padding: 10px;
-}
-
 .miflex {
   flex-direction: column;
   align-items: center;
@@ -129,6 +106,22 @@ h5 {
   margin-bottom: 5%;
 }
 
+.mi-boton-dark {
+  color: #e0b62a;
+  font-weight: bold;
+  font-size: x-small;
+  border-color: #e0b62a;
+}
+
+.conocenos-main-div {
+  align-items: center;
+}
+.conocenos-main-div p {
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+}
+
 .mi-card {
   background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
   height: 300px;
@@ -148,6 +141,10 @@ h5 {
   font-size: small;
   text-align: start;
   color: #000000;
+}
+
+.tabla-servicios {
+  margin: 2% 0%;
 }
 
 .mi-tabla {
@@ -176,13 +173,6 @@ h5 {
   font-size: small;
   text-align: start;
   color: #000000;
-}
-
-.mi-boton-dark {
-  color: #e0b62a;
-  font-weight: bold;
-  font-size: xx-small;
-  border-color: #e0b62a;
 }
 
 .pro {
@@ -243,19 +233,17 @@ body {
   }
   .button-fixed {
     position: absolute;
+    right: 1px;
   }
   .bg-menu {
     align-self: flex-start;
     margin-top: 0.9rem;
-    padding: 0.5rem;
+    padding: 1rem;
     background: #35ac86;
+    width: 150px !important;
   }
-  .mi-navq {
-    width: 130px !important;
-  }
-  .pruebabg {
-    display: flex;
-    justify-content: space-between;
+  .mi-nav {
+    margin-right: 5%;
   }
   .social-icons a {
     max-height: 100%;
@@ -306,13 +294,21 @@ body {
   .mi-card {
     height: auto;
   }
-  /*.tabla2 {
-      display: none;
-  }*/
 }
 @media (max-width: 1360px) {
   .mi-card {
     height: auto;
+  }
+}
+@media (max-width: 400px) {
+  .respon-img {
+    width: 15vw;
+  }
+  .table-text, .table-text2 {
+    font-size: 3vw;
+  }
+  .enfasis {
+    font-size: 4vw;
   }
 }
 header {
@@ -351,8 +347,7 @@ header nav ul a {
 }
 
 .mi-nav {
-  margin-right: 1rem;
-  width: 500px;
+  margin-right: 2rem;
 }
 
 footer {

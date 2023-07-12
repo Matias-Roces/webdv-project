@@ -4,20 +4,20 @@
     }
     .button-fixed{        
         position:absolute;
+        right: 1px;
     }
+    //header responsivo
     .bg-menu{
         align-self:flex-start;
         margin-top: 0.9rem;
-        padding: 0.5rem;                
+        padding: 1rem;                
         background: map-get($map: $palette, $key: verde-o);
+        width: 150px !important;
     }
-    .mi-navq{
-        width: 130px !important;
+    .mi-nav {
+        margin-right: 5%;
     }
-    .pruebabg{
-        display: flex;
-        justify-content: space-between;
-    }
+    //footer responsivo        
     .social-icons {
         a {
             max-height: 100%;
@@ -74,14 +74,23 @@
     }
     .mi-card{
         height: auto;
-    }
-    /*.tabla2 {
-        display: none;
-    }*/
+    }  
     
 }
 @media (max-width: 1360px) {
     .mi-card {
         height: auto;
+    }
+}
+//media query para achicar la tabla de servicios
+@media (max-width: 400px) {
+    .respon-img{
+        width: 15vw;
+    }
+    .table-text, .table-text2 {
+        font-size: 3vw;
+    }
+    .enfasis {
+        font-size: 4vw;
     }
 }

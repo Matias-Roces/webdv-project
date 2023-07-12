@@ -47,28 +47,6 @@ h5
     font-size: medium;    
     text-transform: uppercase;    
 }
-.conocenos-main-div {
-    @extend .displayflex-justifycontentcenter;
-    align-items: center;
-    p {
-        width: 45%;
-        margin: 10px;
-        padding: 10px;
-    }
-}
-.tabla-servicios {
-    margin-left: 40px;
-}
-.portfolio-main-div {
-    @extend .displayflex-justifycontentcenter;    
-    flex-direction: row;        
-    align-items: center;
-    p {
-        width: 45%;
-        margin: 10px;
-        padding: 10px;
-    }
-}
 .miflex{
     @extend .displayflex-justifycontentcenter;
     flex-direction: column;    

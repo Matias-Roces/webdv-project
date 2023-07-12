@@ -5,6 +5,9 @@
     @include mi-text ('Poppins', sans-serif, 200, small, start, map-get($map: $palette, $key: negro-basico));
     
 }
+.tabla-servicios {
+    margin: 2% 0%;
+}
 .mi-tabla{
     max-width: 100%;    
 }
@@ -20,12 +23,7 @@
 .mi-card-text2{
     @include mi-text ('Poppins', sans-serif, 200, small, start, map-get($map: $palette, $key: negro-basico));
 }
-.mi-boton-dark {
-    color: map-get($map: $palette, $key: amarillo-o);
-    font-weight: bold;
-    font-size: xx-small;
-    border-color: map-get($map: $palette, $key: amarillo-o);
-}
+
 .pro{
     color: map-get($map: $palette, $key: verde-c);    
 }
