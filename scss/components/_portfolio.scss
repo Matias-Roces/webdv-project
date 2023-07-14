@@ -1,6 +1,6 @@
 .big-card {
     p {
-        font-size: 1.3vw;
+        font-size: 1.2vw;
         line-height: 4vh;
         text-transform: none !important;
     }
@@ -10,7 +10,7 @@
         padding: 10px;        
         h3{
             font-weight: bolder;
-            font-size: 1.3vw;
+            font-size: 1.2vw;
             color: map-get($map: $palette, $key: amarillo-c) !important;
         }
     }

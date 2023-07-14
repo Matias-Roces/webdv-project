@@ -1,6 +1,7 @@
 .mi-boton-dark {
     color: map-get($map: $palette, $key: amarillo-o);
     font-weight: bold;
-    font-size: x-small;
+    font-size: small;
     border-color: map-get($map: $palette, $key: amarillo-o);
+    background-color: map-get($map: $palette, $key: negro-basico);
 }

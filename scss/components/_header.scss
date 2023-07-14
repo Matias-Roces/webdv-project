@@ -3,11 +3,11 @@ header{
     font-size: large;
     font-weight: 500;
     background: linear-gradient(to right bottom, map-get($map: $palette, $key: verde-c), map-get($map: $palette, $key: verde-o));
-    height: 70px;
+    height: 75px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     position: fixed;
     z-index: 50;
     nav{
@@ -15,9 +15,9 @@ header{
             list-style-type: none; 
             display: flex;
             a {
-            text-decoration: none;
-            color: #2b2b2b;
-            padding: 10px;
+                text-decoration: none;
+                color: #2b2b2b;
+                padding: 10px;
             }    
         }
     }

@@ -21,22 +21,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>   
-    <header>
-        <!-- LOGO ANANA CON LINK AL INDEX -->
-        <a href="index.html" class="logo-encore"><img src="./images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo"></a>
-        <!-- NAV RESPONSIVO CON MENU HAMBURGUESA -->      
-        <div class="mi-nav">            
+    <header>        
+        <!-- LOGO ANANA CON LINK AL INDEX -->            
+        <a href="./index.html" class="logo-encore"><img src="./images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo"></a>
+        <div>
+            <!-- NAV RESPONSIVO CON MENU HAMBURGUESA --> 
             <nav class="navbar navbar-expand-md bg-none">
-                <div>
-                    <!-- BOTON HAMBURGUESA-->                
+                <div class="container-fluid mi-nav">
+                    <!-- BOTON HAMBURGUESA-->                 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse " id="navbarNav">
                         <!-- LISTA DEL MENU -->
-                        <ul class="navbar-nav ml-auto bg-menu button-fixed mi-nav">
+                        <ul class="navbar-nav ml-auto bg-menu button-fixed">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="./pages/conocenos.html">CONOCENOS</a>
+                                <a class="nav-link" href="./pages/conocenos.html">CONOCENOS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./pages/servicios.html">SERVICIOS</a>
@@ -55,7 +55,7 @@
     </header>
     <div class="container-fluid">
         <div class="row">                                    
-            <section class="col-md-6 mx-auto top-margin">                
+            <section class="col-md-4 mx-auto top-margin">                
                 <!-- SECTION PARA DARLE VIGOR AL LOGO DE LA MARCA -->
                 <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="1300" data-aos-easing="ease-in-sine">
                     <img id="ancla-inicio" src="./images/anana-logo-completo.png" alt="Logo de Ananá - Contenido Digital" class="logo2">
@@ -65,6 +65,8 @@
             <section class="top col-md-10 mx-auto"> 
                 <!-- CARRUSEL DE TESTIMONIOS -->  
                 <h2>TESTIMONIOS</h2>
+            </section>
+            <section class="top col-md-8 mx-auto">
                 <div id="carouselExampleDark" class="carousel carousel-dark slide mi-carrusel sides-margin" data-bs-ride="carousel" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1300" data-aos-easing="ease-in-sine">
                     <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -87,7 +89,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="./images/testimonio-3.png" class="d-block w-100" alt="...">
+                            <img src="./images/testimonio-3.png" class="d-block w-100" alt="Testimonio de Edith Valoyes, Dueña en Nails Bar.">
                             <div class="carousel-caption d-md-block text-carrusel">
                                 <p>"No te das cuenta lo necesario que es un buen community manager hasta que ves los resultados. Ananá Contenido Digital generó que tengamos que abrir una nueva sucursal debido a la demanda generada."</p>
                                 <h5>Edith Valoyes, Dueña en Nails Bar.</h5>
@@ -127,14 +129,19 @@
     </div>    
     <footer>
         <!-- HIPERVINCULO AL ANCLA DE ARRIBA PARA VOLVER AL PRINCIPIO DE LA PAGINA -->
-        <div class="footer-links">
-            <a href="#ancla-inicio" class="logo-encore"><img src="./images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo"></a>
-        </div>
-        <!-- LINKS A RRSS -->
-        <div class="social-icons">
-            <a target="_blank" href="https://www.instagram.com/"><img src="./images/instagram.png" alt="Instagram"></a>
-            <a target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.png" alt="Facebook"></a>
-            <a target="_blank" href="https://web.whatsapp.com/"><img src="./images/whatsapp.png" alt="Whatsapp"></a>
+        <div class="mi-flexRow">
+            <div class="footer-links">
+                <a href="#ancla-inicio" class="logo-encore"><img src="./images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo"></a>
+            </div>
+            <!-- LINKS A RRSS -->
+            <div class="social-icons">
+                <a target="_blank" href="https://www.instagram.com/"><img src="./images/instagram.png" alt="Instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.png" alt="Facebook"></a>
+                <a target="_blank" href="https://web.whatsapp.com/"><img src="./images/whatsapp.png" alt="Whatsapp"></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Ananá Contenido Digital. Todos los derechos reservados.</p>
+            </div>
         </div>
     </footer>
     <!-- SCRIPTS PARA TRAER BOOTSTRAP -->

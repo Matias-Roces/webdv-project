@@ -31,20 +31,19 @@ p {
 
 .parrafo {
   font-family: "Poppins", sans-serif;
-  font-size: large;
+  font-size: medium;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 h1, h2 {
   font-family: "Noticia Text", serif;
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: x-large;
   text-align: center;
   color: #000000;
   background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 h3 {
@@ -82,16 +81,16 @@ h5 {
   flex-wrap: wrap;
 }
 
-.enfasis {
+.enfasis, .copyright {
   font-weight: bolder;
 }
 
 .top-margin {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .sides-margin {
-  margin: 0px 10%;
+  margin: 0px 5%;
 }
 
 .marginsides {
@@ -99,7 +98,7 @@ h5 {
 }
 
 .marginbottom {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .marginbottomS {
@@ -109,8 +108,9 @@ h5 {
 .mi-boton-dark {
   color: #e0b62a;
   font-weight: bold;
-  font-size: x-small;
+  font-size: small;
   border-color: #e0b62a;
+  background-color: #000000;
 }
 
 .conocenos-main-div {
@@ -184,7 +184,7 @@ h5 {
 }
 
 .big-card p {
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   line-height: 4vh;
   text-transform: none !important;
 }
@@ -195,7 +195,7 @@ h5 {
 }
 .big-card a h3 {
   font-weight: bolder;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   color: #f5d84f !important;
 }
 
@@ -204,16 +204,17 @@ h5 {
   top: 0;
   left: 0;
   right: 0;
-  padding: 50px !important;
+  padding: 1vh !important;
 }
 .text-carrusel p {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   text-align: start;
   line-height: 150%;
   padding: 5%;
+  background-color: rgba(255, 255, 255, 0.001) !important;
 }
 .text-carrusel h5 {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-weight: bolder;
   text-align: center;
 }
@@ -263,7 +264,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    padding: 50px !important;
+    padding: 2vh !important;
   }
   .text-carrusel p {
     font-size: 2.1vw;
@@ -307,7 +308,7 @@ body {
   .table-text, .table-text2 {
     font-size: 3vw;
   }
-  .enfasis {
+  .enfasis, .copyright {
     font-size: 4vw;
   }
 }
@@ -316,7 +317,7 @@ header {
   font-size: large;
   font-weight: 500;
   background: linear-gradient(to right bottom, #91bd68, #35ac86);
-  height: 70px;
+  height: 75px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -354,29 +355,10 @@ footer {
   font-family: "Poppins", sans-serif;
   font-size: large;
   background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
-  padding: 20px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer-links {
+  padding: 40px;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.footer-links ul {
-  list-style-type: none;
-}
-.footer-links ul li {
-  display: inline-block;
-}
-.footer-links ul li a {
-  text-decoration: none;
-  color: #2b2b2b;
-  padding: 10px;
+  height: auto;
+  bottom: 0;
 }
 
 #left-foot {
@@ -400,17 +382,9 @@ footer {
   max-height: 100%;
 }
 
-footer {
-  color: #000000;
-  padding: 20px;
-  bottom: 0;
-  width: 100%;
-  padding: 40px;
-}
-
 .footer-links {
   float: left;
-  max-width: 40%;
+  margin-right: 60px;
 }
 .footer-links a {
   color: #000000;
@@ -419,7 +393,6 @@ footer {
 }
 
 .social-icons {
-  max-width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -432,6 +405,14 @@ footer {
   max-height: 100%;
   max-width: 100%;
   margin: 0.2rem;
+}
+
+.copyright {
+  padding: 10px;
+}
+
+.mi-boton-dark:hover {
+  color: #91bd68;
 }
 
 /*# sourceMappingURL=style.css.map */
