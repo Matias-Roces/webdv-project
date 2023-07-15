@@ -184,9 +184,9 @@ h5 {
 }
 
 .big-card p {
-  font-size: 1.2vw;
-  line-height: 4vh;
-  text-transform: none !important;
+  font-size: 1.1vw;
+  line-height: auto;
+  text-transform: none;
 }
 .big-card a {
   text-decoration: none;
@@ -196,7 +196,7 @@ h5 {
 .big-card a h3 {
   font-weight: bolder;
   font-size: 1.2vw;
-  color: #f5d84f !important;
+  color: #f5d84f;
 }
 
 .text-carrusel {
@@ -413,6 +413,13 @@ footer {
 
 .mi-boton-dark:hover {
   color: #91bd68;
+}
+
+.big-card a {
+  transition: 0.4s linear;
+}
+.big-card a:hover {
+  text-shadow: 0 0 25px #f98437;
 }
 
 /*# sourceMappingURL=style.css.map */
