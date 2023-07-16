@@ -3,6 +3,7 @@
         font-size: 1.1vw;
         line-height: auto;
         text-transform: none;
+        color: map-get($map: $palette, $key: blanco);
     }
     a {        
         text-decoration: none;

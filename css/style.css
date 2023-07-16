@@ -184,6 +184,7 @@ h5 {
   font-size: 1.1vw;
   line-height: auto;
   text-transform: none;
+  color: #ffffff;
 }
 .big-card a {
   text-decoration: none;
@@ -416,7 +417,7 @@ footer {
   transition: 0.4s linear;
 }
 .big-card a:hover {
-  text-shadow: 0 0 25px #f98437;
+  text-shadow: 0 0 40px #f98437;
 }
 
 /*# sourceMappingURL=style.css.map */
