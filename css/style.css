@@ -17,21 +17,18 @@
   margin-left: 0;
 }
 
-.top {
-  padding-top: 70px;
-}
-
 p {
   font-family: "Poppins", sans-serif;
+  font-weight: normal;
   font-size: medium;
+  text-align: start;
+  color: #000000;
   padding: 1%;
   line-height: 30px;
   text-transform: uppercase;
 }
 
 .parrafo {
-  font-family: "Poppins", sans-serif;
-  font-size: medium;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -48,7 +45,7 @@ h1, h2 {
 
 h3 {
   font-family: "Poppins", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: large;
   text-align: center;
   color: #000000;
