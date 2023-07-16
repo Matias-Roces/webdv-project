@@ -201,14 +201,14 @@ h5 {
   top: 0;
   left: 0;
   right: 0;
-  padding: 1vh !important;
+  padding: 1vh;
 }
 .text-carrusel p {
   font-size: 1.2vw;
   text-align: start;
   line-height: 150%;
   padding: 5%;
-  background-color: rgba(255, 255, 255, 0.001) !important;
+  background-color: rgba(255, 255, 255, 0.001);
 }
 .text-carrusel h5 {
   font-size: 1.2vw;
@@ -217,7 +217,7 @@ h5 {
 }
 
 .img-carrusel {
-  position: relative !important;
+  position: relative;
 }
 
 body {
@@ -246,7 +246,7 @@ body {
   .social-icons a {
     max-height: 100%;
     max-width: 100%;
-    margin-right: 10% !important;
+    margin-right: 10%;
   }
   .social-icons img {
     max-height: 100%;
@@ -254,7 +254,7 @@ body {
     margin: 0;
   }
   .sides-margin {
-    margin: 0px 0px !important;
+    margin: 0px 0px;
   }
   .text-carrusel {
     position: absolute;
