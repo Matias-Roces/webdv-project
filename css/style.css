@@ -25,7 +25,6 @@ p {
   color: #000000;
   padding: 1%;
   line-height: 30px;
-  text-transform: uppercase;
 }
 
 .parrafo {
@@ -184,17 +183,24 @@ h5 {
   font-size: 1.1vw;
   line-height: auto;
   text-transform: none;
-  color: #ffffff;
+  color: #000000;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 1rem;
 }
 .big-card a {
   text-decoration: none;
-  color: #f5d84f;
+  color: #000000;
   padding: 10px;
 }
 .big-card a h3 {
   font-weight: bolder;
   font-size: 1.2vw;
-  color: #f5d84f;
+  color: #000000;
+}
+
+.bg-legible h5 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5vw;
 }
 
 .text-carrusel {
@@ -228,7 +234,7 @@ body {
 
 @media (max-width: 767px) {
   h1, h2 {
-    font-size: x-large;
+    font-size: large;
   }
   .button-fixed {
     position: absolute;
@@ -282,7 +288,7 @@ body {
   }
   .big-card a {
     text-decoration: none;
-    color: #f5d84f;
+    color: #000000;
     padding: 0 !important;
   }
   .big-card a h3 {
@@ -316,7 +322,7 @@ header {
   font-weight: 500;
   background: linear-gradient(to right bottom, #91bd68, #35ac86);
   height: 75px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -409,15 +415,28 @@ footer {
   padding: 10px;
 }
 
+.mi-boton-dark {
+  transition: 0.35s linear;
+}
+
 .mi-boton-dark:hover {
   color: #91bd68;
 }
 
 .big-card a {
-  transition: 0.4s linear;
+  transition: 0.35s linear;
 }
 .big-card a:hover {
-  text-shadow: 0 0 40px #f98437;
+  text-shadow: 0 0 10px #f98437;
+  color: #ffffff;
+}
+
+.slider-boton {
+  transition: 0.35s;
+}
+
+.slider-boton:hover {
+  text-shadow: 0 0 100px rgba(0, 0, 0, 0.65);
 }
 
 /*# sourceMappingURL=style.css.map */

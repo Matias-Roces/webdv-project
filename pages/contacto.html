@@ -73,7 +73,7 @@
             
         </section>
         <main>
-            <div class="container-fluid">
+            <form onsubmit="enviarCorreo(event)" class="container-fluid">
                 <div class="row">
                     <h1 class="col-md-10 mx-auto">CONTACTANOS</h1>
                     <div class="container-fluid">
@@ -81,20 +81,20 @@
                             <!-- FORMULARIO DE CONTACTO -->
                             <div class="col-md-8 mx-auto">
                                 <label for="exampleFormControlInput1" class="form-label etiqueta">APELLIDO Y NOMBRE</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Juan Perez">
+                                <input type="text" class="form-control" id="nombre" placeholder="Juan Perez">
                             </div>
                             <div class="col-md-8 mx-auto">
                                 <label for="exampleFormControlInput1" class="form-label etiqueta">Correo Electronico</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                <input type="text" class="form-control" id="email" placeholder="name@example.com">
                             </div>
                             <div class="col-md-8 mx-auto">
                                 <label for="exampleFormControlTextarea1" class="form-label etiqueta">Contanos por qué querés contactarnos:</label>
-                                <textarea class="form-control marginbottomS" id="exampleFormControlTextarea1" rows="10"></textarea>
+                                <textarea class="form-control marginbottomS" id="mensaje" rows="10"></textarea>
                             </div>
                             <!-- BOTON DE CONTACTO -->
                             <div class="col-md-8 mx-auto miflex marginbottomS" >
                                 <span>
-                                    <button type="button" class="btn btn-dark mi-boton-dark">
+                                    <button type="submit" class="btn btn-dark mi-boton-dark">
                                         ENVIAR
                                     </button>
                                 </span>
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-            </div>            
+            </form>            
         </main>
         <section>
 
@@ -134,6 +134,22 @@
         </script>
         <script>
             AOS.init();
+        </script>
+        <script>
+            function enviarCorreo(event) {
+                event.preventDefault();
+    
+                var nombre = document.getElementById("nombre").value;
+                var email = document.getElementById("email").value;
+                var mensaje = document.getElementById("mensaje").value;
+    
+                var subject = "Nuevo mensaje del formulario de contacto";
+                var body = "Nombre: " + nombre + "\n" +
+                           "Email: " + email + "\n" +
+                           "Mensaje:\n" + mensaje;
+    
+                window.location.href = "mailto:matias.roces.web@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+            }
         </script>
     </body>
 </html>

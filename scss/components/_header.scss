@@ -4,7 +4,7 @@ header{
     font-weight: 500;
     background: linear-gradient(to right bottom, map-get($map: $palette, $key: verde-c), map-get($map: $palette, $key: verde-o));
     height: 75px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content:space-between;

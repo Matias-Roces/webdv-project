@@ -3,16 +3,24 @@
         font-size: 1.1vw;
         line-height: auto;
         text-transform: none;
-        color: map-get($map: $palette, $key: blanco);
+        color: map-get($map: $palette, $key: negro-basico);
+        background-color: map-get($map: $palette, $key: negro-35);
+        border-radius: 1rem;
     }
     a {        
         text-decoration: none;
-        color: map-get($map: $palette, $key: amarillo-c);
+        color: map-get($map: $palette, $key: negro-basico);
         padding: 10px;                
         h3{
             font-weight: bolder;
             font-size: 1.2vw;
-            color: map-get($map: $palette, $key: amarillo-c);
+            color: map-get($map: $palette, $key: negro-basico);
         }
     }
 }
+.bg-legible {
+    h5 {
+        background-color: map-get($map: $palette, $key: blanco-50);
+        border-radius: 5vw;
+    }
+} 

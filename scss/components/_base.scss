@@ -14,7 +14,7 @@ p {
     @include mi-text('Poppins', sans-serif, normal, medium, start, map-get($map: $palette, $key: negro-basico));    
     padding: 1%;
     line-height: 30px;
-    text-transform: uppercase;    
+    // text-transform: uppercase;    
 }
 .parrafo {    
     background-color: rgba(255, 255, 255, 0.7);

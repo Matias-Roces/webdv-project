@@ -1,6 +1,6 @@
 @media (max-width: 767px) {    
     h1, h2{
-        font-size: x-large;
+        font-size: large;
     }
     .button-fixed{        
         position:absolute;
@@ -63,7 +63,7 @@
         }
         a {        
             text-decoration: none;
-            color: map-get($map: $palette, $key: amarillo-c);
+            color: map-get($map: $palette, $key: negro-basico);
             padding: 0 !important;        
             h3{
                 font-weight: bolder;
