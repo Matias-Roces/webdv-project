@@ -18,6 +18,16 @@ p {
 }
 .parrafo {    
     background-color: rgba(255, 255, 255, 0.7);
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        color: map-get($map: $palette, $key: verde-o);
+        transition: 0.5s;
+    }
+    a:hover {
+        text-shadow: 0 0 10px map-get($map: $palette, $key: amarillo-c);
+        color: map-get($map: $palette, $key: amarillo-o);
+    }
 }
 h1, h2{
     @include mi-text('Noticia Text', serif, bolder, x-large, center, map-get($map: $palette, $key: negro-basico));
@@ -67,4 +77,7 @@ h5
 }
 .marginbottomS{
     margin-bottom: 5%;
+}
+section{
+    margin-bottom: 10px;
 }

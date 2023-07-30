@@ -30,6 +30,16 @@ p {
 .parrafo {
   background-color: rgba(255, 255, 255, 0.7);
 }
+.parrafo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #35ac86;
+  transition: 0.5s;
+}
+.parrafo a:hover {
+  text-shadow: 0 0 10px #f3e6a7;
+  color: #fadb74;
+}
 
 h1, h2 {
   font-family: "Noticia Text", serif;
@@ -37,7 +47,7 @@ h1, h2 {
   font-size: x-large;
   text-align: center;
   color: #000000;
-  background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
+  background: linear-gradient(to right bottom, #f3e6a7, #fadb74);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -101,11 +111,15 @@ h5 {
   margin-bottom: 5%;
 }
 
+section {
+  margin-bottom: 10px;
+}
+
 .mi-boton-dark {
-  color: #e0b62a;
+  color: #fadb74;
   font-weight: bold;
   font-size: small;
-  border-color: #e0b62a;
+  border-color: #fadb74;
   background-color: #000000;
 }
 
@@ -119,7 +133,7 @@ h5 {
 }
 
 .mi-card {
-  background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
+  background: linear-gradient(to right bottom, #f3e6a7, #fadb74);
   height: 300px;
 }
 
@@ -160,7 +174,7 @@ h5 {
   font-weight: bold;
   font-size: small;
   text-align: start;
-  color: #e0b62a;
+  color: #fadb74;
 }
 
 .mi-card-text2 {
@@ -176,7 +190,7 @@ h5 {
 }
 
 .vip {
-  color: #e0b62a;
+  color: #fadb74;
 }
 
 .big-card p {
@@ -358,7 +372,7 @@ header nav ul a {
 footer {
   font-family: "Poppins", sans-serif;
   font-size: large;
-  background: linear-gradient(to right bottom, #f5d84f, #e0b62a);
+  background: linear-gradient(to right bottom, #f3e6a7, #fadb74);
   padding: 40px;
   width: 100%;
   height: auto;
@@ -388,7 +402,7 @@ footer {
 
 .footer-links {
   float: left;
-  margin-right: 60px;
+  margin: 0px 30px;
 }
 .footer-links a {
   color: #000000;
@@ -403,7 +417,7 @@ footer {
 }
 .social-icons a {
   height: 36px;
-  margin-right: 60px;
+  margin: 0px 30px;
 }
 .social-icons img {
   max-height: 100%;

@@ -30,7 +30,7 @@ footer {
 }
 .footer-links {
     float: left;
-    margin-right: 60px;
+    margin: 0px 30px;
     // max-width: 40%;
     a {
         color: map-get($map: $palette, $key: negro-basico);
@@ -45,7 +45,7 @@ footer {
     justify-content: flex-end;
     a {
         height: 36px;
-        margin-right: 60px;
+        margin: 0px 30px;
     }
     img {
         max-height: 100%;
