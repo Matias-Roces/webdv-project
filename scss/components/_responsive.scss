@@ -94,3 +94,21 @@
         font-size: 4vw;
     }
 }
+@media (max-width: 535px){
+    .mi-card-ancho{
+        width: 90%;
+        min-width: none !important;  
+    }
+    .mi-card-body{
+        height: auto;    
+    }
+}
+@media (max-width: 1389px){
+    .mi-card-ancho{
+        width: 300px;
+        min-width: none !important;  
+    }
+    .mi-card-body{
+        height: 380px;    
+    }
+}

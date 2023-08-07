@@ -21,3 +21,27 @@
     // background-color: map-get($map: $palette, $key: naranja);
     text-shadow: 0 0 100px map-get($map: $palette, $key: negro-65);
 }
+.agrandar {
+    div {
+        a {
+            img {
+                transition: 0.5s;
+            }
+            img:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+.sitemap-ul {    
+    a {
+        text-decoration: none;
+        color: map-get($map: $palette, $key: negro-basico);
+        transition: 0.5s;
+    }
+    a:hover {
+        color: map-get($map: $palette, $key: verde-o);
+        font-size: 20px;
+    }
+    
+}

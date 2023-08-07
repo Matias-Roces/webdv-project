@@ -1,6 +1,11 @@
-.displayflex-justifycontentcenter, .conocenos-main-div, .mi-flexRow, .miflex {
+.displayflex-justifycontentcenter, .conocenos-main-div, .miflex {
   display: flex;
   justify-content: center;
+}
+
+.flex-space-around, .mi-flexRow {
+  display: flex;
+  justify-content: space-around;
 }
 
 * {
@@ -29,6 +34,7 @@ p {
 
 .parrafo {
   background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
 }
 .parrafo a {
   text-decoration: none;
@@ -42,14 +48,15 @@ p {
 }
 
 h1, h2 {
-  font-family: "Noticia Text", serif;
-  font-weight: bolder;
+  font-family: "Cormorant", serif;
+  font-weight: normal;
   font-size: x-large;
   text-align: center;
   color: #000000;
   background: linear-gradient(to right bottom, #f3e6a7, #fadb74);
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 h3 {
@@ -115,6 +122,10 @@ section {
   margin-bottom: 10px;
 }
 
+.margintop {
+  margin-top: 20px;
+}
+
 .mi-boton-dark {
   color: #fadb74;
   font-weight: bold;
@@ -155,6 +166,7 @@ section {
 
 .tabla-servicios {
   margin: 2% 0%;
+  border-radius: 10px;
 }
 
 .mi-tabla {
@@ -166,7 +178,7 @@ section {
 }
 
 .mi-card-body {
-  height: 410px;
+  height: 225px;
 }
 
 .mi-card-text1 {
@@ -191,6 +203,14 @@ section {
 
 .vip {
   color: #fadb74;
+}
+
+.mi-card-ancho {
+  width: 35vw;
+}
+
+.mi-label {
+  padding-top: 10px;
 }
 
 .big-card p {
@@ -330,6 +350,24 @@ body {
     font-size: 4vw;
   }
 }
+@media (max-width: 535px) {
+  .mi-card-ancho {
+    width: 90%;
+    min-width: none !important;
+  }
+  .mi-card-body {
+    height: auto;
+  }
+}
+@media (max-width: 1389px) {
+  .mi-card-ancho {
+    width: 300px;
+    min-width: none !important;
+  }
+  .mi-card-body {
+    height: 380px;
+  }
+}
 header {
   font-family: "Poppins", sans-serif;
   font-size: large;
@@ -413,7 +451,7 @@ footer {
 .social-icons {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .social-icons a {
   height: 36px;
@@ -427,6 +465,11 @@ footer {
 
 .copyright {
   padding: 10px;
+}
+
+.sitemap-ul {
+  border-left: 5px solid #35ac86;
+  list-style: none;
 }
 
 .mi-boton-dark {
@@ -451,6 +494,23 @@ footer {
 
 .slider-boton:hover {
   text-shadow: 0 0 100px rgba(0, 0, 0, 0.65);
+}
+
+.agrandar div a img {
+  transition: 0.5s;
+}
+.agrandar div a img:hover {
+  transform: scale(1.1);
+}
+
+.sitemap-ul a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+.sitemap-ul a:hover {
+  color: #35ac86;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

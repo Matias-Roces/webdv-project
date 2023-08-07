@@ -63,32 +63,32 @@
                 </section>
             </div>
         </div>
-        <section>
+        <!-- <section>
             <div class="container-fluid">
                 <div class="row">
-                    <!-- INTRODUCCIÓN AL FORMULARIO DE CONTACTO -->
+                    INTRODUCCIÓN AL FORMULARIO DE CONTACTO 
                     <p class="parrafo col-md-10 mx-auto" class="col-md-8 mx-auto">¿Tenés dudas sobre lo que hacemos? ¿Te interesa pero no estas seguro/a? Contactanos sin compromiso, que nosotros con gusto te despejamos todas las dudas. Creemos que la confianza es fundamental para desarrollar una dinamica que te favorezca y nos de las herramientas para ayudarte.</p>
                 </div>
             </div>
             
-        </section>
+        </section> -->
         <main>
             <form onsubmit="enviarCorreo(event)" class="container-fluid">
                 <div class="row">
-                    <h1 class="col-md-10 mx-auto">CONTACTANOS</h1>
+                    <h1 class="col-md-10 mx-auto">TRABAJÁ CON NOSOTROS</h1>
                     <div class="container-fluid">
                         <div class="row">
                             <!-- FORMULARIO DE CONTACTO -->
                             <div class="col-md-8 mx-auto">
-                                <label for="exampleFormControlInput1" class="form-label etiqueta">APELLIDO Y NOMBRE</label>
+                                <label for="exampleFormControlInput1" class="form-label etiqueta mi-label">APELLIDO Y NOMBRE</label>
                                 <input type="text" class="form-control" id="nombre" placeholder="Juan Perez">
                             </div>
                             <div class="col-md-8 mx-auto">
-                                <label for="exampleFormControlInput1" class="form-label etiqueta">Correo Electronico</label>
+                                <label for="exampleFormControlInput1" class="form-label etiqueta mi-label">Correo Electronico</label>
                                 <input type="text" class="form-control" id="email" placeholder="name@example.com">
                             </div>
                             <div class="col-md-8 mx-auto">
-                                <label for="exampleFormControlTextarea1" class="form-label etiqueta">Contanos por qué querés contactarnos:</label>
+                                <label for="exampleFormControlTextarea1" class="form-label etiqueta mi-label">Tu mensaje</label>
                                 <textarea class="form-control marginbottomS" id="mensaje" rows="10"></textarea>
                             </div>
                             <!-- BOTON DE CONTACTO -->
@@ -110,19 +110,29 @@
 
         <footer>
             <!-- HIPERVINCULO AL ANCLA DE ARRIBA PARA VOLVER AL PRINCIPIO DE LA PAGINA -->
-            <div class="mi-flexRow">
-                <div class="footer-links">
+            <div class="mi-flexRow agrandar">
+                <div class="footer-links ">
                     <a href="#ancla-inicio" class="logo-encore"><img src="../images/logo-color.png" alt="Logo Ananá Contenido Digital" class="logo"></a>
                 </div>
                 <!-- LINKS A RRSS -->
-                <div class="social-icons">
+                <div class="social-icons">                
                     <a target="_blank" href="https://www.instagram.com/ananacontenidodigital"><img src="../images/instagram.png" alt="Instagram"></a>
                     <a target="_blank" href="https://www.facebook.com/ananacontenidodigital"><img src="../images/facebook.png" alt="Facebook"></a>
                     <a target="_blank" href="https://web.whatsapp.com/"><img src="../images/whatsapp.png" alt="Whatsapp"></a>
-                </div>
+                </div>            
+            </div>
+            <div class="mi-flexRow margintop">
+                <ul class="sitemap-ul">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/conocenos.html">Conocenos</a></li>
+                    <li><a href="../pages/servicios.html">Nuestra propuesta</a></li>
+                    <li><a href="../pages/portfolio.html">Así trabajamos</a></li>
+                    <li><a href="#ancla-inicio">Trabajá con nosotros</a></li>                
+                </ul>
                 <div class="copyright">
                     <p>&copy; 2023 Ananá Contenido Digital. Todos los derechos reservados.</p>
                 </div>
+            </div>
         </footer>
         <!-- SCRIPTS PARA TRAER BOOTSTRAP -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">            

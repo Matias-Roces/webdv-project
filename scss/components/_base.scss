@@ -18,6 +18,7 @@ p {
 }
 .parrafo {    
     background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
     a{
         text-decoration: none;
         font-weight: bold;
@@ -30,10 +31,11 @@ p {
     }
 }
 h1, h2{
-    @include mi-text('Noticia Text', serif, bolder, x-large, center, map-get($map: $palette, $key: negro-basico));
+    @include mi-text('Cormorant', serif, normal, x-large, center, map-get($map: $palette, $key: negro-basico));
     background: linear-gradient(to right bottom, map-get($map: $palette, $key: amarillo-c), map-get($map: $palette, $key: amarillo-o));
     padding-top: 10px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
+    border-radius: 10px;    
 }
 h3{
     @include mi-text('Poppins', sans-serif, bold, large, center, map-get($map: $palette, $key: negro-basico));    
@@ -55,7 +57,7 @@ h5
     align-items: center;
 }
 .mi-flexRow{
-    @extend .displayflex-justifycontentcenter;   
+    @extend .flex-space-around;   
     flex-direction: row;    
     align-items: center;
     flex-wrap: wrap;
@@ -80,4 +82,7 @@ h5
 }
 section{
     margin-bottom: 10px;
+}
+.margintop{
+    margin-top: 20px;
 }

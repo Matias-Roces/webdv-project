@@ -7,6 +7,7 @@
 }
 .tabla-servicios {
     margin: 2% 0%;
+    border-radius: 10px;
 }
 .mi-tabla{
     max-width: 100%;    
@@ -15,7 +16,7 @@
     list-style: none;    
 }
 .mi-card-body{
-    height: 410px;
+    height: 225px;    
 }
 .mi-card-text1{
     @include mi-text ('Poppins', sans-serif, bold, small, start, map-get($map: $palette, $key: amarillo-o));
@@ -29,4 +30,8 @@
 }
 .vip{
     color: map-get($map: $palette, $key: amarillo-o);
+}
+.mi-card-ancho{
+    width: 35vw;
+    // min-width: 500px;
 }
