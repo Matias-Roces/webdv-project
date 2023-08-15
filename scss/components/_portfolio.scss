@@ -23,4 +23,8 @@
         background-color: map-get($map: $palette, $key: blanco-50);
         border-radius: 5vw;
     }
-} 
+}
+.mi-shadow {
+    padding: 0;
+    box-shadow: 10px 10px 12px 5px map-get($map: $palette, $key: negro-10);
+}

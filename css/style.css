@@ -35,6 +35,7 @@ p {
 .parrafo {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
+  box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.1);
 }
 .parrafo a {
   text-decoration: none;
@@ -57,6 +58,7 @@ h1, h2 {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
+  box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
@@ -111,7 +113,7 @@ h5 {
 }
 
 .marginbottom {
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 .marginbottomS {
@@ -132,6 +134,7 @@ section {
   font-size: small;
   border-color: #fadb74;
   background-color: #000000;
+  box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.1);
 }
 
 .conocenos-main-div {
@@ -144,6 +147,9 @@ section {
 }
 
 .mi-card {
+  box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.1);
+}
+.mi-card div {
   background: linear-gradient(to right bottom, #f3e6a7, #fadb74);
   height: 300px;
 }
@@ -167,6 +173,7 @@ section {
 .tabla-servicios {
   margin: 2% 0%;
   border-radius: 10px;
+  box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.1);
 }
 
 .mi-tabla {
@@ -206,6 +213,7 @@ section {
 }
 
 .mi-card-ancho {
+  box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.1);
   width: 35vw;
 }
 
@@ -235,6 +243,11 @@ section {
 .bg-legible h5 {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5vw;
+}
+
+.mi-shadow {
+  padding: 0;
+  box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.1);
 }
 
 .text-carrusel {
@@ -465,11 +478,15 @@ footer {
 
 .copyright {
   padding: 10px;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
 .sitemap-ul {
   border-left: 5px solid #35ac86;
   list-style: none;
+}
+.sitemap-ul li a {
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
 .mi-boton-dark {

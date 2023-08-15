@@ -14,11 +14,13 @@ p {
     @include mi-text('Poppins', sans-serif, normal, medium, start, map-get($map: $palette, $key: negro-basico));    
     padding: 1%;
     line-height: 30px;
+    
     // text-transform: uppercase;    
 }
 .parrafo {    
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
+    box-shadow: 10px 10px 12px 5px map-get($map: $palette, $key: negro-10);
     a{
         text-decoration: none;
         font-weight: bold;
@@ -35,7 +37,8 @@ h1, h2{
     background: linear-gradient(to right bottom, map-get($map: $palette, $key: amarillo-c), map-get($map: $palette, $key: amarillo-o));
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 10px;    
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px 5px map-get($map: $palette, $key: negro-10);    
 }
 h3{
     @include mi-text('Poppins', sans-serif, bold, large, center, map-get($map: $palette, $key: negro-basico));    
@@ -75,7 +78,7 @@ h5
     margin: 0 0.5%;
 }
 .marginbottom{
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 .marginbottomS{
     margin-bottom: 5%;

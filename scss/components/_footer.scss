@@ -47,7 +47,7 @@ footer {
         height: 36px;
         margin: 0px 30px;
     }
-    img {
+    img {        
         max-height: 100%;
         max-width: 100%;
         margin: 0.2rem;
@@ -56,9 +56,15 @@ footer {
 .copyright {
     @extend .enfasis;
     padding: 10px;
+    text-shadow: 5px 5px 4px map-get($map: $palette, $key: negro-10);
 }
 .sitemap-ul {
     border-left: 5px solid map-get($map: $palette, $key: verde-o) ;
     list-style: none;
+    li{
+        a{
+            text-shadow: 5px 5px 4px map-get($map: $palette, $key: negro-10);
+        }
+    }
 }
 
