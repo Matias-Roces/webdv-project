@@ -3,6 +3,5 @@
     font-weight: bold;
     font-size: small;
     border-color: map-get($map: $palette, $key: amarillo-o);
-    background-color: map-get($map: $palette, $key: negro-basico);
-    box-shadow: 8px 8px 10px 3px map-get($map: $palette, $key: negro-10);
+    background-color: map-get($map: $palette, $key: negro-basico);    
 }

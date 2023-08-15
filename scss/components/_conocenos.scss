@@ -7,8 +7,7 @@
         padding: 10px;
     }
 }
-.mi-card{
-    box-shadow: 10px 10px 12px 5px map-get($map: $palette, $key: negro-10);
+.mi-card{    
     div{
     background: linear-gradient(to right bottom, map-get($map: $palette, $key: amarillo-c), map-get($map: $palette, $key: amarillo-o));
     height: 300px;

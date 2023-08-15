@@ -73,13 +73,17 @@
         }        
     }
     .mi-card{
-        height: auto;
+        div{ 
+            height: auto;
+        }
     }  
     
 }
 @media (max-width: 1360px) {
     .mi-card {
-        height: auto;
+            div{
+            height: auto;
+        }
     }
 }
 //media query para achicar la tabla de servicios
