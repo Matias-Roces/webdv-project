@@ -10,8 +10,8 @@
         transition: .35s linear;
     }
     a:hover {
-        text-shadow: 0 0 10px map-get($map: $palette, $key: naranja);
-        color: map-get($map: $palette, $key: blanco);
+        text-shadow: 0 0 20px map-get($map: $palette, $key: blanco-50);
+        color: map-get($map: $palette, $key: verde-c);
     }    
 }
 .slider-boton {   

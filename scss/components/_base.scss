@@ -24,21 +24,27 @@ p {
     a{
         text-decoration: none;
         font-weight: bold;
-        color: map-get($map: $palette, $key: verde-o);
+        color: map-get($map: $palette, $key: naranja);
         transition: 0.5s;
     }
     a:hover {
-        text-shadow: 0 0 10px map-get($map: $palette, $key: amarillo-c);
-        color: map-get($map: $palette, $key: amarillo-o);
+        text-shadow: 0 0 20px map-get($map: $palette, $key: amarillo-c);        
+        @include mi-text('Poppins', sans-serif, bold, medium, start, map-get($map: $palette, $key: amarillo-o));        
     }
 }
-h1, h2{
-    @include mi-text('Montserrat', sans-serif, bold, x-large, center, map-get($map: $palette, $key: negro-basico));
+h1{
+    @include mi-text('Montserrat', sans-serif, 600, x-large, center, map-get($map: $palette, $key: negro-basico));
     background: linear-gradient(to right bottom, map-get($map: $palette, $key: amarillo-c), map-get($map: $palette, $key: amarillo-o));
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 10px;
-        
+    border-radius: 10px;        
+}
+h2{
+    @include mi-text('Montserrat', sans-serif, 500, x-large, center, map-get($map: $palette, $key: negro-basico));
+    background: linear-gradient(to right bottom, map-get($map: $palette, $key: amarillo-c), map-get($map: $palette, $key: amarillo-o));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;        
 }
 h3{
     @include mi-text('Poppins', sans-serif, bold, large, center, map-get($map: $palette, $key: negro-basico));    
@@ -46,7 +52,7 @@ h3{
 }
 h5
 {
-    @include mi-text('Poppins', sans-serif, bolder, larger, start, map-get($map: $palette, $key: negro-basico));
+    @include mi-text('Montserrat', sans-serif, bold, larger, start, map-get($map: $palette, $key: negro-basico));
     padding: .5%;
 }
 .etiqueta {
