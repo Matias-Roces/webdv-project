@@ -1,4 +1,4 @@
-.displayflex-justifycontentcenter, .conocenos-main-div, .miflex {
+.displayflex-justifycontentcenter, .copyright, .conocenos-main-div, .miflex {
   display: flex;
   justify-content: center;
 }
@@ -48,8 +48,8 @@ p {
 }
 
 h1, h2 {
-  font-family: "Cormorant", serif;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   font-size: x-large;
   text-align: center;
   color: #000000;
@@ -469,6 +469,9 @@ footer {
 
 .copyright {
   padding: 10px;
+}
+.copyright p {
+  font-size: 12px;
 }
 
 .sitemap-ul {

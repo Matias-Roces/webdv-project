@@ -33,7 +33,7 @@ p {
     }
 }
 h1, h2{
-    @include mi-text('Cormorant', serif, normal, x-large, center, map-get($map: $palette, $key: negro-basico));
+    @include mi-text('Montserrat', sans-serif, bold, x-large, center, map-get($map: $palette, $key: negro-basico));
     background: linear-gradient(to right bottom, map-get($map: $palette, $key: amarillo-c), map-get($map: $palette, $key: amarillo-o));
     padding-top: 10px;
     padding-bottom: 10px;
